@@ -1,0 +1,219 @@
+.container{
+    width: 80%;
+    /* height: 100vh; */
+    margin: auto;
+    background: rgb(19, 18, 18);
+}
+
+header{
+    height: 20%;
+    background-color: rgb(204, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow:  -4.7px 0 0 0 orange; */
+    box-shadow:  -23px 15px 12px -16px orange;
+}
+
+.logo{
+    width: 50%;
+    /* height: 90%; */
+}
+.logo span{
+    color: orange;
+}
+.logo p{
+    font-size: 25px;
+}
+.nav{
+    width: 50%;
+    border-radius: 4px;
+    /* height: 90%; */
+}
+.menu{
+    margin: 15px;
+}
+.menu nav a{
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    font-weight: bold;
+    color: black;
+}
+nav{
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.sous-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sous-menu a{
+    background-color: rgb(231, 241, 240);
+    padding: 13px;
+    /* border-radius: 2px; */
+    padding-right: 49px;
+    /* padding-left: 20px; */
+    text-align: center;
+}
+.menu p{
+    margin-left: 332px;
+    font-weight: bold;
+    font-size: 18px
+}
+/* ***************************************** */
+.content{
+    width: 70%;
+    margin: auto;
+}
+.combat img{
+    width: 100%;
+    height: 300px;
+}
+.article{
+    background-color:rgb(221, 226, 226) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 83px;
+}
+.article img{
+    width: 70%;
+}
+.detail-article{
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+}
+.reduction{
+    position: absolute;
+    width: 53px;
+    height: 22px;
+    background-color: rgb(32, 31, 31);
+    padding: 5px;
+    border-radius: 2px;
+    top: 4px;
+    right: 0;
+    margin-right: 44px;
+    color: orange;
+    font-weight: bold;
+    font-size: 22px;
+}
+.detail-article img{
+    box-shadow: 2px 3px 2px 2px rgb(95 92 92);
+
+}
+.detail-article a{
+    text-decoration: none;
+    background-color: rgb(32, 31, 31);
+    border-radius: 2px;
+    color: white;
+    padding: 6px 20px;
+    font-size: 19px;
+}
+.detail-article p{
+    position: relative;
+    top: -47px;
+    color: rgb(73, 71, 71);
+    font-weight: bold;
+}
+.prix{
+    display: inline-block;
+    width: 100px;
+    height: 22px;
+    background-color: rgb(231, 241, 240);
+    padding: 5px;
+    border-radius: 2px;
+    color: orange;
+    font-weight: bold;
+    font-size: 21px;
+    box-shadow: 1px 3px 2px rgb(95 92 92);
+}
+.prix span{
+    color:white
+}
+.vide-noir{
+    height: 20px;
+    background-color: rgb(53, 51, 51);
+    position: relative;
+    top: -41px;
+}
+.prix span{
+    color: black;
+}
+.prix .detail-article a{
+    position: relative;
+}
+.carre{
+    width: 15px;
+    height: 15px;
+    background: rgb(53, 51, 51);
+}
+.small-nav{
+    background:rgb(221, 226, 226)  ;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    top: -40px;
+    position: relative;
+    box-shadow: 1px 3px 2px rgb(95 92 92);
+}
+.small-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0 6px;
+} 
+footer{
+    background: rgb(53, 51, 51);
+    margin-top: -70px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.sociaux{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 20%;
+    margin: auto;
+}
+.sociaux.img{
+    margin: 0 15px;
+}
+.section1{
+    text-align: center;
+    flex-direction: row;
+    color: white;
+}
+.section2{
+    text-align: center;
+    flex-direction: row;
+    color: white;
+}
+.section3{
+    text-align: center;
+    flex-direction: row;
+    color: white;
+}
+.section4{
+    text-align: center;
+    flex-direction: row;
+    color: white;
+}
